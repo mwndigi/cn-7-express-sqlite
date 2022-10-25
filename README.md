@@ -1,2 +1,5 @@
-# cn-7-express-sqlite
-Express app with SQLite3
+# Express app with sqlite
+
+npm install ejs express sqlite3
+
+node index.js
