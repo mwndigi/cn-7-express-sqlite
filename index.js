@@ -6,7 +6,6 @@ const db = new sqlite3.Database('./db.sqlite');
 
 app.set('view engine', 'ejs');
 
-app.use(express.static(__dirname + '/public'));
 app.use(express.urlencoded())
 app.use(express.json());
 
