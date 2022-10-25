@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Pinger App</title>
+  </head>
+  <body>
+    <main>
+      <h1>Pinger App</h1>
+
+      <p><b>New User</b></p>
+      <p><form action="/users/" method="post">
+        <label for="username">Enter username: </label>
+        <input
+          id="username"
+          type="text"
+          name="username_field" />
+          <label for="password">Enter password: </label>
+          <input
+            id="password"
+            type="text"
+            name="password_field" />
+        <input type="submit" value="OK" />
+      </form></p><br />
+      <p><b>Ping Hostname</b></p>
+      <p><form action="/pings/" method="post">
+        <label for="hostname">Enter hostname: </label>
+        <input
+          id="hostname"
+          type="text"
+          name="hostname_field" />
+          <input type="submit" value="OK" />
+      </form></p>
+
+    </main>
+  </body>
+</html>
